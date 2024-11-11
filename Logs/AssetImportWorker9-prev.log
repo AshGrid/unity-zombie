@@ -1,0 +1,2045 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'fr' Physical Memory: 16114 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/user/Desktop/zombi
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+49779
+Successfully changed project path to: C:/Users/user/Desktop/zombi
+C:/Users/user/Desktop/zombi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30384] Host "[IP] 192.168.249.1 [Port] 0 [Flags] 2 [Guid] 3925016595 [EditorId] 3925016595 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G9VLQBD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30384] Host "[IP] 192.168.249.1 [Port] 0 [Flags] 2 [Guid] 3925016595 [EditorId] 3925016595 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G9VLQBD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 288.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/zombi/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013042 seconds.
+- Loaded All Assemblies, in  0.533 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1228 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.590 seconds
+Domain Reload Profiling: 2122ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (273ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1387ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.951 seconds
+Refreshing native plugins compatible for Editor in 11.92 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1820ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (713ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (179ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 14.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5626 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 137 unused Assets / (2.6 MB). Loaded Objects now: 6073.
+Memory consumption went from 255.4 MB to 252.8 MB.
+Total: 7.968200 ms (FindLiveObjects: 0.438900 ms CreateObjectMapping: 0.518200 ms MarkObjects: 6.160800 ms  DeleteObjects: 0.848800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1195379.823837 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(d366237179613af47b7eac42b955c1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(d366237179613af47b7eac42b955c1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a20ba6ba2bf5e89c58f5393bf2ad1d2') in 0.045444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.598 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.502 seconds
+Domain Reload Profiling: 3096ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (750ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 10.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6089.
+Memory consumption went from 216.9 MB to 214.3 MB.
+Total: 10.103000 ms (FindLiveObjects: 0.595600 ms CreateObjectMapping: 0.315900 ms MarkObjects: 7.905500 ms  DeleteObjects: 1.284000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294.191174 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_BonusTime_Icon.png
+  artifactKey: Guid(3b0b4808cfccc47aeb911ea51b39190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_BonusTime_Icon.png using Guid(3b0b4808cfccc47aeb911ea51b39190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7f2d4e63d738c12ac8c3163d3f4415') in 0.139524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/ad_remove.png
+  artifactKey: Guid(7fa50ad063c1140ce98a41d965c64aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/ad_remove.png using Guid(7fa50ad063c1140ce98a41d965c64aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8739180d4ec454047741056dcd19be') in 0.027330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/ad_remove.png
+  artifactKey: Guid(3e3578121dc0843459e36ebf9c9dc273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/ad_remove.png using Guid(3e3578121dc0843459e36ebf9c9dc273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d372c4600488912ecb1934e3cee93d') in 0.028073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Background/bg_panel.png
+  artifactKey: Guid(a70e72e585865475fbc1ba1d900cddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Background/bg_panel.png using Guid(a70e72e585865475fbc1ba1d900cddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd8c8b6cd4aae82dde4862d309aec03') in 0.044327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/block.png
+  artifactKey: Guid(a4c875aa015ee475ca73c6d62956904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/block.png using Guid(a4c875aa015ee475ca73c6d62956904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48873a36feffd48a9f39f5d6693c6ca2') in 0.026128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/bomb.png
+  artifactKey: Guid(151447d7a5a6a4001a17041bfd1fe408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/bomb.png using Guid(151447d7a5a6a4001a17041bfd1fe408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4eae81bae6a61faa3c742a58d0e06d') in 0.026390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/bomb_f.png
+  artifactKey: Guid(6bb7be5b0c94d4c0380792f896c4aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/bomb_f.png using Guid(6bb7be5b0c94d4c0380792f896c4aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c0ff99cfc65dfa8e35b817602e4661') in 0.030567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/backward.png
+  artifactKey: Guid(492ea863f686542e58b6fff3dfa45584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/backward.png using Guid(492ea863f686542e58b6fff3dfa45584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104c52256e2cd51b3cf57f04ceb884f2') in 0.033145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/ad_remove_f.png
+  artifactKey: Guid(1e8fc6e396d584f738b09124c3f42c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/ad_remove_f.png using Guid(1e8fc6e396d584f738b09124c3f42c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c42f1f54edda4a2a7f7f74924d667b') in 0.038904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/block.png
+  artifactKey: Guid(65f4a75d49bf046939ed86890225f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/block.png using Guid(65f4a75d49bf046939ed86890225f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229a7a87353d79309d8fbcbdef1ca29e') in 0.052950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/backward_f.png
+  artifactKey: Guid(7ddf56130d2704c1384c79c5a17398e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/backward_f.png using Guid(7ddf56130d2704c1384c79c5a17398e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40de65e0163e43054da2444cc559b34b') in 0.035913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/block.png
+  artifactKey: Guid(02a53249afcc646a098190439f62e04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/block.png using Guid(02a53249afcc646a098190439f62e04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe15f091e7681226958b9f2cd44277fd') in 0.036639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/bomb.png
+  artifactKey: Guid(837a593b75bf64445b2fc88a4ad51d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/bomb.png using Guid(837a593b75bf64445b2fc88a4ad51d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31336efb84b7dcf533082212bf96a639') in 0.035346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/block_f.png
+  artifactKey: Guid(1cc72a15f8c9546da8f22f0f7f844ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/block_f.png using Guid(1cc72a15f8c9546da8f22f0f7f844ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac453a92e2c38cc05557560d91991efb') in 0.037302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/backward.png
+  artifactKey: Guid(e57ecaa4f08a74d028b9597b23f7a10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/128/backward.png using Guid(e57ecaa4f08a74d028b9597b23f7a10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd00e1408a09d42f212c2bfb1dcf2c2') in 0.037960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/ad_remove_f.png
+  artifactKey: Guid(45a4f3ef561534ad6b6c420c7aca43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/64/ad_remove_f.png using Guid(45a4f3ef561534ad6b6c420c7aca43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8225fdb36fc3a1266920e487fa8298') in 0.046866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Skull.png
+  artifactKey: Guid(b1ef015bf64c94c31adb47f37bed4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Skull.png using Guid(b1ef015bf64c94c31adb47f37bed4249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafe949c240e4aa8f8661c7cd411b9a9') in 0.038607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Go.png
+  artifactKey: Guid(552a5170ba0744721966f274c655583d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Go.png using Guid(552a5170ba0744721966f274c655583d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100d20935725ecf0e406fd1122dcd8cf') in 0.038574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/bomb.png
+  artifactKey: Guid(2b6d56d7bc4264f35b0b0a0a44b1f32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/bomb.png using Guid(2b6d56d7bc4264f35b0b0a0a44b1f32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa86c5b54fecbc13d606f35834b348f3') in 0.040002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/ad_remove_f.png
+  artifactKey: Guid(e88fb449e5f594f88b2e0e530de963f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/256/ad_remove_f.png using Guid(e88fb449e5f594f88b2e0e530de963f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96cd3335a782b3ead6027296d04041f') in 0.028316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_MissionClear_Icon.png
+  artifactKey: Guid(247da4449fc314b63871eb21a390272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_MissionClear_Icon.png using Guid(247da4449fc314b63871eb21a390272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd14d84b0d4c83e5d2f7c45aa1ef2ae') in 0.033779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Wow.png
+  artifactKey: Guid(915584cfde26c4e788d478d984077cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Wow.png using Guid(915584cfde26c4e788d478d984077cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc1399628d24b867a179d4d41a3a0ef') in 0.028672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/ad_remove.png
+  artifactKey: Guid(cef886488871b470896caff92e420954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(x2)/512/ad_remove.png using Guid(cef886488871b470896caff92e420954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef808cd9b66a92d2cdebc56ad2feb14f') in 0.034403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Combo.png
+  artifactKey: Guid(8c774003bbe7e47f890eb526efbc4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Combo.png using Guid(8c774003bbe7e47f890eb526efbc4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484442d099a0ce03af1805d3a58b2c1b') in 0.045616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Victory_Icon.png
+  artifactKey: Guid(8e60f363d26d54980a1ea31cff65ca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Victory_Icon.png using Guid(8e60f363d26d54980a1ea31cff65ca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c51543a3f41c67729bc617a34500c7') in 0.041662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Victory.png
+  artifactKey: Guid(742912190f70c4ae2b8f4d89c82760db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/ActionText/ActionText_Victory.png using Guid(742912190f70c4ae2b8f4d89c82760db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037353853826567702f16fa1a62bb268') in 0.030289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.863188 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_ad_remove_f.png
+  artifactKey: Guid(af69da3aa6feb4a6f8e7e328331380d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_ad_remove_f.png using Guid(af69da3aa6feb4a6f8e7e328331380d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc70a7bcc096d0db42899da1486bb857') in 0.031198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Back_n.png
+  artifactKey: Guid(fd68f49ae4da7466e8cdcc31797c2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Back_n.png using Guid(fd68f49ae4da7466e8cdcc31797c2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94764d71ffb8bfe77d20ef2e1bce5eb5') in 0.033315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_category_f.png
+  artifactKey: Guid(ab437ba376c3d4eff8594b64e0e4d2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_category_f.png using Guid(ab437ba376c3d4eff8594b64e0e4d2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0737280c3bd0ac8d965fbad1621bd2') in 0.032021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_camera_n.png
+  artifactKey: Guid(0180ea2579cb3454f8e2394c2773912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_camera_n.png using Guid(0180ea2579cb3454f8e2394c2773912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4960cfc12dd9ba816eb667ea60db7fde') in 0.028808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_bulb_n.png
+  artifactKey: Guid(0a2a88ad9441b41a49fd942cb774c818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_bulb_n.png using Guid(0a2a88ad9441b41a49fd942cb774c818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4049172be71f2f10c545774c983deee8') in 0.032301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_close_n.png
+  artifactKey: Guid(5c8777f6863d34ec6835b1041ed8c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_close_n.png using Guid(5c8777f6863d34ec6835b1041ed8c61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6606a9d2f465320258b27faf054aa27') in 0.031083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_coin_f.png
+  artifactKey: Guid(0b5b161fc5e0e4aad91a9c01b3c52df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_coin_f.png using Guid(0b5b161fc5e0e4aad91a9c01b3c52df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4fd5f6a6ac886cfa8ee4814b425770') in 0.037397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_delete_n.png
+  artifactKey: Guid(ddfd2bcb31d6f4187a25bd4d83e87ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_delete_n.png using Guid(ddfd2bcb31d6f4187a25bd4d83e87ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fb6f967975b16ddd834acbc1ab6ef8') in 0.035426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_category_n.png
+  artifactKey: Guid(7d6b5f19a1f98469f9435e26d8726f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_category_n.png using Guid(7d6b5f19a1f98469f9435e26d8726f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc2f1f3223c4e5379b922129788e0a8') in 0.027892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_compass_n.png
+  artifactKey: Guid(7decba1a443134ceb85fe7541dd8bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_compass_n.png using Guid(7decba1a443134ceb85fe7541dd8bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa786dd842e69f82c02844c3f00451b') in 0.035014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_block_n.png
+  artifactKey: Guid(2056026c666f34ca5aed363efb0f4770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_block_n.png using Guid(2056026c666f34ca5aed363efb0f4770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1f6a2c0a6c269b2dbd661f568a2af7') in 0.039940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_check_n.png
+  artifactKey: Guid(b0837f1dc0b104377b9329c22399b604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_check_n.png using Guid(b0837f1dc0b104377b9329c22399b604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccb9154c4a0dc833caf69a4ca6b850e') in 0.031271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002623 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Back_s.png
+  artifactKey: Guid(5597c6ea87dab45579c8c56e33a93cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Back_s.png using Guid(5597c6ea87dab45579c8c56e33a93cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5549cf6b128f81ad41301a2083da94b') in 0.027644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_close_f.png
+  artifactKey: Guid(021fff0e1c8584c6a88f36186e288eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_close_f.png using Guid(021fff0e1c8584c6a88f36186e288eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d539f8f6249c58229682ef6a97d7a4') in 0.035191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_dollar_f.png
+  artifactKey: Guid(45544e34150184795a6fbf6d8d518080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_dollar_f.png using Guid(45544e34150184795a6fbf6d8d518080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69826250199e5cdf3f02a1a7ff46de7f') in 0.031657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_castle_n.png
+  artifactKey: Guid(f2c5267367e0346c39493b8a5f7a3d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_castle_n.png using Guid(f2c5267367e0346c39493b8a5f7a3d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7f692b3a4b2ebe4974d34f4077c8c0') in 0.036903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_camera_f.png
+  artifactKey: Guid(5bc8a3887a4ad404aa476eb3355744bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_camera_f.png using Guid(5bc8a3887a4ad404aa476eb3355744bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531ac0854608542b318fc7e2aa2296f2') in 0.032187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_delete_f.png
+  artifactKey: Guid(4082bad18a6ec4274a18aee22853db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_delete_f.png using Guid(4082bad18a6ec4274a18aee22853db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f716733e90b7dd12c6802a6fdd2775d9') in 0.027523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.139358 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_down_f.png
+  artifactKey: Guid(fdc74ef47e6dc48a1afcbbbc2e6608b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_down_f.png using Guid(fdc74ef47e6dc48a1afcbbbc2e6608b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb65b69eae5f1bb5ea2a5fa40fbce3') in 0.031031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_energy_n.png
+  artifactKey: Guid(443a40579e80c4dc09d9b48d863a3400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_energy_n.png using Guid(443a40579e80c4dc09d9b48d863a3400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05001ac9d5714583da0cd55f8c912b3e') in 0.038522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005166 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_forward_f.png
+  artifactKey: Guid(4417fece0b95a4902baa2736de92fe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_forward_f.png using Guid(4417fece0b95a4902baa2736de92fe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2421093b9cf0101b1768011cb2788a') in 0.026639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_gift_n.png
+  artifactKey: Guid(ef847737f621c449cbe9b227dbcf473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_gift_n.png using Guid(ef847737f621c449cbe9b227dbcf473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ba9b03908389fdd69cc223f647dcda') in 0.042836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_home_n.png
+  artifactKey: Guid(6734a4470980244d9a275cf61bbe7c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_home_n.png using Guid(6734a4470980244d9a275cf61bbe7c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df915422971a9dc94ffb209ec06a688') in 0.046336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_feather_n.png
+  artifactKey: Guid(ca81aa3400e8b444880b1ee8e395cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_feather_n.png using Guid(ca81aa3400e8b444880b1ee8e395cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab89697588a417a68e2a47fb192983ff') in 0.033922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_flag_f.png
+  artifactKey: Guid(fdc017dd0132d4a8fa5655f79c0c9e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_flag_f.png using Guid(fdc017dd0132d4a8fa5655f79c0c9e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e674a6e07b062ebec53710cc19eeedc3') in 0.051053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Home_n.png
+  artifactKey: Guid(ad7fc028cbb254097947e716651e2c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Home_n.png using Guid(ad7fc028cbb254097947e716651e2c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7278add7c703c5275926ad22c43be621') in 0.033343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_gem_n.png
+  artifactKey: Guid(356fae123c04d49c8b08755b28e8841b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_gem_n.png using Guid(356fae123c04d49c8b08755b28e8841b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee765947466e1e0509f32c036c361960') in 0.039694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_list_n.png
+  artifactKey: Guid(83747a6608e844878a923a195d827166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_list_n.png using Guid(83747a6608e844878a923a195d827166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded8be1f30f197256f0d48d8796bb642') in 0.036052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_life_n.png
+  artifactKey: Guid(c957d58fdc09344418719efee6e97b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_life_n.png using Guid(c957d58fdc09344418719efee6e97b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569accda2864efdacbba637a786ffb14') in 0.037338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_key_f.png
+  artifactKey: Guid(99c134d5ec417418baa0528140b5ec4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_key_f.png using Guid(99c134d5ec417418baa0528140b5ec4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cb1c7aab299b20cc8ec57ec860c26f') in 0.031228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_key_n.png
+  artifactKey: Guid(b685d995faa5e4e02b08096efc46caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_key_n.png using Guid(b685d995faa5e4e02b08096efc46caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1441c60392f232bf415b0889085603') in 0.035125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_helmet_n.png
+  artifactKey: Guid(171ad565802774e76b29fd76c1e8cb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_helmet_n.png using Guid(171ad565802774e76b29fd76c1e8cb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae7c928176e0be7235b2e9c397fdbee') in 0.033220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_helmet_f.png
+  artifactKey: Guid(7520fcf7aae0f459994c20f72a0abd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_helmet_f.png using Guid(7520fcf7aae0f459994c20f72a0abd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2d3aff37fe4fe987a236bdbe1234d7') in 0.031768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_life_f.png
+  artifactKey: Guid(d621fd61c1e29484193834169b3b079e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_life_f.png using Guid(d621fd61c1e29484193834169b3b079e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2590bb15dbf2203b85c34db1cc94cc70') in 0.035717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_flag_n.png
+  artifactKey: Guid(be1dd776f9e72465e8c936627ce0e275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_flag_n.png using Guid(be1dd776f9e72465e8c936627ce0e275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e4e12ba2ed964b2cc306caa923d4ce') in 0.038135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_download_f.png
+  artifactKey: Guid(b4cdec20f77624d92a16947beb797b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_download_f.png using Guid(b4cdec20f77624d92a16947beb797b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc988d88e027e2e50f86f574b072f3df') in 0.047126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_mail_n.png
+  artifactKey: Guid(9067d008f1e124cc9b934a399ef94496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_mail_n.png using Guid(9067d008f1e124cc9b934a399ef94496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57303e8d2f35f24fe06ac74bb8abdb19') in 0.046021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_message_f.png
+  artifactKey: Guid(0fc86af394a444a4bb1785c0fdc7c5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_message_f.png using Guid(0fc86af394a444a4bb1785c0fdc7c5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b78ef5442bdae723a5479743934be1') in 0.030680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Page_Next_s.png
+  artifactKey: Guid(034e68064aeeb4201993c5aaac852ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Page_Next_s.png using Guid(034e68064aeeb4201993c5aaac852ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb4c9afd0780f9b8b8a79df8f1d037a') in 0.033220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_menu_f.png
+  artifactKey: Guid(6d891735e07ed4595b481670c6d41690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_menu_f.png using Guid(6d891735e07ed4595b481670c6d41690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ad52e65bfdcaa0459f45fe6fafc7d3') in 0.025835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_move_n.png
+  artifactKey: Guid(72cee74f1638d4e9e80a19eb967c0c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_move_n.png using Guid(72cee74f1638d4e9e80a19eb967c0c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b114f67ce0ff106abde6f345ff9a9685') in 0.031090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_move_f.png
+  artifactKey: Guid(2b57910bc63b348f0961925993adce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_move_f.png using Guid(2b57910bc63b348f0961925993adce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e21caba8665702d0c1b60ddb4d9ddc8') in 0.081491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_music off_n.png
+  artifactKey: Guid(011e3acafae16472da36ba9484022d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_music off_n.png using Guid(011e3acafae16472da36ba9484022d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72a0727c5bf9a6ec46e00d29db8bf23') in 0.041796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_next_n.png
+  artifactKey: Guid(4c1cc32d5fba9420089bbce85831072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_next_n.png using Guid(4c1cc32d5fba9420089bbce85831072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9cc20b6c6ca5b9ef39dc52c153f530') in 0.032570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_music_n.png
+  artifactKey: Guid(9a5ac24fd65ca40a88a48cb01de4da39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_music_n.png using Guid(9a5ac24fd65ca40a88a48cb01de4da39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19fce9d056de40e628c438ae790fcee') in 0.029753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Page_Next_n.png
+  artifactKey: Guid(8135a40473b22461691bd6ff6c45bfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Page_Next_n.png using Guid(8135a40473b22461691bd6ff6c45bfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79e95bfeae06aa40fd0b9ad58dedede') in 0.028179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Page_Prev_s.png
+  artifactKey: Guid(b6da7eb138b05427eb498d35967f941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Page_Prev_s.png using Guid(b6da7eb138b05427eb498d35967f941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b653422c4f5b1eaac737e1abd04ffb9') in 0.036983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_mail_f.png
+  artifactKey: Guid(8df1f53bf05ef4e0c8c3a2f9008fbe94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_mail_f.png using Guid(8df1f53bf05ef4e0c8c3a2f9008fbe94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420f0b2b51628db6517554d0cbcb42fd') in 0.031284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_menu_n.png
+  artifactKey: Guid(22be32a9a0732465cb281c1578d5f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_menu_n.png using Guid(22be32a9a0732465cb281c1578d5f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758d26d954b20a2fb7168c3165dc2436') in 0.035365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_medal_n.png
+  artifactKey: Guid(392ff8eaba4a44449a689886ca5a7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_medal_n.png using Guid(392ff8eaba4a44449a689886ca5a7c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fb442501dc2572fcbba0835f482e4f') in 0.030852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_music_f.png
+  artifactKey: Guid(55e4ee93637a243a3a526d36e8cac140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_music_f.png using Guid(55e4ee93637a243a3a526d36e8cac140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fc8f25b68c5613342ac77ff01527a4') in 0.034214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_medal_f.png
+  artifactKey: Guid(742a709e8894a4d3e9cc29ec8bf09d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_medal_f.png using Guid(742a709e8894a4d3e9cc29ec8bf09d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab60ec9642e90712b7a15828c11a5d8e') in 0.039223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_minus_n.png
+  artifactKey: Guid(f32c3b3af3f02474e9525b2a85f9f238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_minus_n.png using Guid(f32c3b3af3f02474e9525b2a85f9f238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cfa7764a94f08d38bf6a4c49e9d86c') in 0.033995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Pause_n.png
+  artifactKey: Guid(34244b001811c4be4a92260d830f2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Pause_n.png using Guid(34244b001811c4be4a92260d830f2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fe5ee37bf1438f88c0e4d3c47bec65') in 0.037118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.566834 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_potion_f.png
+  artifactKey: Guid(7bda55fd0c41c4510bd7835d8f0ddf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_potion_f.png using Guid(7bda55fd0c41c4510bd7835d8f0ddf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fb98fb97325bd3a219bf8d38f26922') in 0.051903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_rank_f.png
+  artifactKey: Guid(d322c9da8e436479a8cdaa7d0960e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_rank_f.png using Guid(d322c9da8e436479a8cdaa7d0960e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d95f67a81bb8ff7f3afc159ffeaf142') in 0.027140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Sns_Twitter_n.png
+  artifactKey: Guid(f909f056a1aa04e2f9eb697f8ecdb03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Sns_Twitter_n.png using Guid(f909f056a1aa04e2f9eb697f8ecdb03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f7becdd3d0c8a308e09321c7834891') in 0.034564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_restart_n.png
+  artifactKey: Guid(08f15578123fa41fb894a3e4b413d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_restart_n.png using Guid(08f15578123fa41fb894a3e4b413d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7a4826d459f2d5e63bb44f96caaf0a') in 0.034922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_right_f.png
+  artifactKey: Guid(e0031db6c5d4c492b82be4fe7c646494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_right_f.png using Guid(e0031db6c5d4c492b82be4fe7c646494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641d20b5a96d00617e3e553aca46f4a4') in 0.029296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_refresh_n.png
+  artifactKey: Guid(2d188143a4bf44fa282b94bfeb910179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_refresh_n.png using Guid(2d188143a4bf44fa282b94bfeb910179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a7ba7d37b12a51b7b42f5ac3c1236e') in 0.035624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_search_f.png
+  artifactKey: Guid(c20aee0a75739462fa64248608140614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_search_f.png using Guid(c20aee0a75739462fa64248608140614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57386d2272c9c761b50bd80f4cf102c8') in 0.057842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_share_n.png
+  artifactKey: Guid(dd7276be491824313a3ceb5f818c54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_share_n.png using Guid(dd7276be491824313a3ceb5f818c54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4372f6777019da804b8db527dafdeaf0') in 0.025269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_setting_f.png
+  artifactKey: Guid(4ce1f243dec2a468e9e6b680e2a3affb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_setting_f.png using Guid(4ce1f243dec2a468e9e6b680e2a3affb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88171b48905e1d3b9a2bb07332afa94') in 0.027684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_sword_n.png
+  artifactKey: Guid(8a7bbcc6d60694f1880ad1618120ec55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_sword_n.png using Guid(8a7bbcc6d60694f1880ad1618120ec55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c6db93c49075a722a03c34df42a5fb') in 0.038154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_write_n.png
+  artifactKey: Guid(df8f667d6800e4d7a9870f7685f6b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_write_n.png using Guid(df8f667d6800e4d7a9870f7685f6b91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bffcda476a1f67dd158e4cab80a07f') in 0.034798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_store_f.png
+  artifactKey: Guid(03e91a56269a04557882700043a10b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_store_f.png using Guid(03e91a56269a04557882700043a10b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ca4e032ea87a66e60ab41e7883dbec') in 0.026632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_star_f.png
+  artifactKey: Guid(a417b2619bd434033ac7e88666c0f5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_star_f.png using Guid(a417b2619bd434033ac7e88666c0f5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e518b4345156d3b6751384079fef1722') in 0.028082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Sns_Google_s.png
+  artifactKey: Guid(fe7c713ab323d46b5a3d09dd030c667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Sns_Google_s.png using Guid(fe7c713ab323d46b5a3d09dd030c667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd114669a0cd22e3f797552ce060d54ce') in 0.026636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_trophy_n.png
+  artifactKey: Guid(e44d5bf50cac84aed9e6ead669f9e35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_trophy_n.png using Guid(e44d5bf50cac84aed9e6ead669f9e35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8e530f94b3bdce9a43356806694a34') in 0.031451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_rank_n.png
+  artifactKey: Guid(da1188a55d46b4d6ab5aa9b8e3122749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Component/Icon_ButtonIcon_(Origin)/btn_rank_n.png using Guid(da1188a55d46b4d6ab5aa9b8e3122749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf66d1262b30ccb596efc9bc459537d3') in 0.036753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Sns_Twitter_s.png
+  artifactKey: Guid(09f296d2cfe0e4ecda3322916f272dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - Dark Geo/ResourceData/Sprite/Demo/Demo_Button/Btn_Sns_Twitter_s.png using Guid(09f296d2cfe0e4ecda3322916f272dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba8ddf08096a36ab31f47003b878832') in 0.034938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.487 seconds
+Refreshing native plugins compatible for Editor in 7.67 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.181 seconds
+Domain Reload Profiling: 1664ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (636ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6136.
+Memory consumption went from 217.1 MB to 214.5 MB.
+Total: 7.982200 ms (FindLiveObjects: 0.495900 ms CreateObjectMapping: 0.290300 ms MarkObjects: 6.296500 ms  DeleteObjects: 0.898200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 7.56 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.217 seconds
+Domain Reload Profiling: 1653ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (660ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 6.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6151.
+Memory consumption went from 217.4 MB to 214.8 MB.
+Total: 7.973600 ms (FindLiveObjects: 0.506000 ms CreateObjectMapping: 0.278200 ms MarkObjects: 6.335700 ms  DeleteObjects: 0.852400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 8.49 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.878 seconds
+Domain Reload Profiling: 3371ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2074ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (1507ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 250.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6166.
+Memory consumption went from 217.4 MB to 214.8 MB.
+Total: 8.273000 ms (FindLiveObjects: 0.475600 ms CreateObjectMapping: 0.243000 ms MarkObjects: 6.527600 ms  DeleteObjects: 1.025300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.465 seconds
+Refreshing native plugins compatible for Editor in 8.89 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.012 seconds
+Domain Reload Profiling: 20473ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (2138ms)
+		LoadAssemblies (2219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (18012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (741ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6181.
+Memory consumption went from 217.4 MB to 214.8 MB.
+Total: 8.726200 ms (FindLiveObjects: 0.527700 ms CreateObjectMapping: 0.348800 ms MarkObjects: 6.830200 ms  DeleteObjects: 1.018400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 6.59 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.150 seconds
+Domain Reload Profiling: 1583ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6196.
+Memory consumption went from 217.4 MB to 214.8 MB.
+Total: 7.757700 ms (FindLiveObjects: 0.484300 ms CreateObjectMapping: 0.263500 ms MarkObjects: 6.170700 ms  DeleteObjects: 0.837700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 7.93 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.169 seconds
+Domain Reload Profiling: 1633ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6211.
+Memory consumption went from 217.4 MB to 214.8 MB.
+Total: 10.712300 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.388300 ms MarkObjects: 8.962000 ms  DeleteObjects: 0.819400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 6.58 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 1608ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6226.
+Memory consumption went from 217.4 MB to 214.9 MB.
+Total: 8.432900 ms (FindLiveObjects: 0.422000 ms CreateObjectMapping: 0.227200 ms MarkObjects: 6.976500 ms  DeleteObjects: 0.806000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 9.83 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.188 seconds
+Domain Reload Profiling: 1616ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1189ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (639ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6241.
+Memory consumption went from 217.4 MB to 214.9 MB.
+Total: 7.586900 ms (FindLiveObjects: 0.496200 ms CreateObjectMapping: 0.300400 ms MarkObjects: 5.934900 ms  DeleteObjects: 0.853900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.148 seconds
+Domain Reload Profiling: 1596ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (607ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6256.
+Memory consumption went from 217.4 MB to 214.9 MB.
+Total: 8.322300 ms (FindLiveObjects: 0.477500 ms CreateObjectMapping: 0.508900 ms MarkObjects: 6.388200 ms  DeleteObjects: 0.946200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 7.44 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.186 seconds
+Domain Reload Profiling: 1634ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (633ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6271.
+Memory consumption went from 217.5 MB to 214.9 MB.
+Total: 9.241200 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.248300 ms MarkObjects: 7.678800 ms  DeleteObjects: 0.850100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.6 MB). Loaded Objects now: 6271.
+Memory consumption went from 133.3 MB to 130.8 MB.
+Total: 8.496500 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.257900 ms MarkObjects: 6.798300 ms  DeleteObjects: 0.934500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.6 MB). Loaded Objects now: 6271.
+Memory consumption went from 132.2 MB to 129.7 MB.
+Total: 8.681900 ms (FindLiveObjects: 0.477200 ms CreateObjectMapping: 0.252600 ms MarkObjects: 7.094100 ms  DeleteObjects: 0.856600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.375 seconds
+Refreshing native plugins compatible for Editor in 7.55 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.385 seconds
+Domain Reload Profiling: 17757ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (2038ms)
+		LoadAssemblies (2073ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (15385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 11.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6286.
+Memory consumption went from 217.5 MB to 214.9 MB.
+Total: 8.393600 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.536200 ms MarkObjects: 6.450900 ms  DeleteObjects: 0.885500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.523 seconds
+Refreshing native plugins compatible for Editor in 9.52 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.249 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.6 MB). Loaded Objects now: 6301.
+Memory consumption went from 217.5 MB to 214.9 MB.
+Total: 9.477000 ms (FindLiveObjects: 0.604100 ms CreateObjectMapping: 0.292900 ms MarkObjects: 7.503300 ms  DeleteObjects: 1.075000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.6 MB). Loaded Objects now: 6301.
+Memory consumption went from 133.4 MB to 130.8 MB.
+Total: 10.731800 ms (FindLiveObjects: 0.643300 ms CreateObjectMapping: 0.608000 ms MarkObjects: 8.322600 ms  DeleteObjects: 1.156400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.6 MB). Loaded Objects now: 6301.
+Memory consumption went from 132.3 MB to 129.7 MB.
+Total: 10.129500 ms (FindLiveObjects: 0.561500 ms CreateObjectMapping: 0.277400 ms MarkObjects: 8.072000 ms  DeleteObjects: 1.217200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.5 MB). Loaded Objects now: 6301.
+Memory consumption went from 132.3 MB to 129.7 MB.
+Total: 10.464300 ms (FindLiveObjects: 0.467700 ms CreateObjectMapping: 0.280500 ms MarkObjects: 8.931000 ms  DeleteObjects: 0.783800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.6 MB). Loaded Objects now: 6301.
+Memory consumption went from 132.3 MB to 129.7 MB.
+Total: 7.874000 ms (FindLiveObjects: 0.519900 ms CreateObjectMapping: 0.259100 ms MarkObjects: 6.215800 ms  DeleteObjects: 0.877900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.5 MB). Loaded Objects now: 6301.
+Memory consumption went from 132.3 MB to 129.7 MB.
+Total: 9.344700 ms (FindLiveObjects: 0.490400 ms CreateObjectMapping: 0.254200 ms MarkObjects: 7.766500 ms  DeleteObjects: 0.831700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ProximitySensor.cs: 3d2b27786634e365c72ef99f18fc83de -> aef687696484c7ff497e78f373f764a8
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ProximityPause.cs: b69589cab340a81553f9bdd2492e5a4e -> 
